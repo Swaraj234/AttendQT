@@ -1,0 +1,72 @@
+# ==========================================
+# Python Caches & Bytecode
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Flask Specifics
+# ==========================================
+# The instance folder contains local, machine-specific configuration
+instance/
+.webassets-cache
+
+# ==========================================
+# Environment Variables & Secrets (CRITICAL)
+# ==========================================
+.env
+.flaskenv
+*.secret
+*-token-secret.txt
+
+# ==========================================
+# Databases (Local development)
+# ==========================================
+*.db
+*.sqlite
+*.sqlite3
+app.db
+
+# ==========================================
+# Testing & Code Coverage
+# ==========================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nosetests.xml
+coverage.xml
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Build & Distribution
+# ==========================================
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ==========================================
+# IDEs and Code Editors
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
